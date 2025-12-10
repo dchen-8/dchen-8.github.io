@@ -5,8 +5,11 @@ author: David Chen
 email: david@davidc.dev
 date:   2025-12-09
 categories: document learnings design_doc
-toc: true
 ---
+
+* TOC 
+Extra line to be overwritten
+{:toc}
 
 
 TCGs have been rising in popularity and with it the prices of cards have been rising and falling constantly. 
