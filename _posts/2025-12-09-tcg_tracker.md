@@ -47,7 +47,7 @@ The next step would be to take that data and create daily alerts that would allo
         * To utilize Cloud Run, you will need to build a Dockerfile into a binary and have it live within a platform or within Artifact Registry. 
         * There is a lower cap on how much Artifact Registry can hold before it starts charging. The limit 500 MBs across all projects. Once it is exceeds, it is cents per GB to host the files.
 * Version Control
-    * Github - https://github.com/dchen-8/tcg_tracker
+    * Github - <https://github.com/dchen-8/tcg_tracker>{:target="_blank"}
 
 ## High Level Process
 
@@ -66,7 +66,7 @@ RuntimeWarning: As the c extension couldn't be imported, `google-crc32c` is usin
   warnings.warn(_SLOW_CRC32C_WARNING, RuntimeWarning)
 ```
 
-I was able to find this comment about running the Docker build command with extra arguments to bypass the issue. https://github.com/googleapis/python-crc32c/issues/83#issuecomment-910515271
+I was able to find this comment about running the Docker build command with extra arguments to bypass the issue. <https://github.com/googleapis/python-crc32c/issues/83#issuecomment-910515271>{:target="_blank"}
 
 I was eventually able to build Cloud Image that would run on Cloud Run with this command: 
 
@@ -78,7 +78,7 @@ gcloud run jobs deploy tcg-tracker --source . --region us-west1 --set-env-vars C
 
 BigQuery supports Hive Paritioning of the data. Generally I would have wanted to put the data into a dated file path name like '/yyyy/mm/dd/file.data' which is a nice looking struture in which data hierarchy is easy to see. Hive paritioning is differnt in that the file path has tags embbed which allows Hive to under stand the inferred column name.
 
-https://docs.cloud.google.com/bigquery/docs/hive-partitioned-queries#supported_data_layouts
+<https://docs.cloud.google.com/bigquery/docs/hive-partitioned-queries#supported_data_layouts>{:target="_blank"}
 
 ### Paraquet conversion without Pandas
 
