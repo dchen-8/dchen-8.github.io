@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: no_footer_page
 title: TCG Tracker Dashboard
 permalink: /tools/tcg_tracker/
 ---
@@ -10,7 +10,7 @@ iframe {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 500px;
+    height: 80%;
     display: block;
 }
 
