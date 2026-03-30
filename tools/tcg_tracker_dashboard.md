@@ -17,5 +17,5 @@ iframe {
 </style>
 
 <div class='page-content'>
-    <iframe src="https://lookerstudio.google.com/embed/reporting/d2ecc80e-c1bb-4d5d-911f-f899241b3077/page/CGTjF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+    <iframe src="https://tcg-tracker-streamlit-138970122233.us-west1.run.app/" frameborder="0" style="border:0"></iframe>
 </div>
