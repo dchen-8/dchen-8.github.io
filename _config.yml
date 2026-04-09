@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: David Chen's Documents
+title: David Chen's Website
 email: david@davidc.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  This website is my attempt to keep a open log of all the interesting things I work on.
-  To ensure that I live up to my own expectations of "Automate / Document myself out of a job", 
-  I will be trying to document and write up as much as I can for each project.
+  David Chen's Personal Website / Blog - Google Cloud Platform / BigQuery / Data Engineering
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dchen-8.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
