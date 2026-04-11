@@ -1,7 +1,7 @@
 ---
 layout: no_footer_page
-title: TCG Tracker React Dashboard
-permalink: /tools/tcg_tracker_react/
+title: TCG Tracker Dashboard
+permalink: /tools/tcg_tracker/
 ---
 
 <style>
