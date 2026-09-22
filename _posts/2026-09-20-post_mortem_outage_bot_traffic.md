@@ -70,7 +70,7 @@ Alerting could have caught the large amount of traffic and alerted me. No alerts
 
 ## Action Items
 
-### Immediate Fixes:
+### Immediate Fixes
 
 Things that were implemented to help resolve this incident.
 
@@ -95,7 +95,7 @@ Things that were implemented to help resolve this incident.
 * Blocked the offending bot's User Agent
   * Determined that 90% of all the issue came from one company's bot, block the bot and all the issues went away
 
-### Preventative Measures:
+### Preventative Measures
 
 Things that will be put in place to help prevent an issue like this happening again.
 
@@ -113,7 +113,7 @@ Things that will be put in place to help prevent an issue like this happening ag
 
 ## Lesson Learned
 
-### What went well:
+### What went well
 
 * Cloud Logging and having the whole stack on Google Cloud Platform made it pretty trivial to look back into the logs to see everything that happened. 
     * It was trivial to see what was happening through the dashboard on each service but being able to do anything about it was a different story.
@@ -128,7 +128,7 @@ Things that will be put in place to help prevent an issue like this happening ag
     * Peaked at 15 connections
     * Hmm, that is weird my throughput is 200% at 200 ops per sec
 
-### What could be improved:
+### What could be improved
 
 * Alerting
   * If I had a sense of what was happening earlier, I could have added measure earlier rather than let it get to this point. 
@@ -146,12 +146,13 @@ Overall it was a harrowing situation but I am glad I was able to experience it, 
 
 ### Google App Engine - Log Errors
 
-#### 420 occurrences of:
+* 420 occurrences of:
 psycopg.OperationalError: connection failed: connection to server on socket "[CONNECTION]" failed: FATAL: remaining connection slots are reserved for roles with privileges of the "pg_use_reserved_connections" role
 
-#### 420 occurrences of:
+* 420 occurrences of: \
  sqlalchemy.exc.OperationalError: (psycopg.OperationalError) connection failed: connection to server on socket "[CONNECTION]" failed: FATAL: remaining connection slots are reserved for roles with privileges of the "pg_use_reserved_connections" role
 
- #### Cloud Flare Stats on September 20, 2026 - 3 PM Pacific
- * 52.11 Requests served by Cloud Flare
- * 14.59 Served by Origin (Chen.Trading)
+
+### Cloud Flare Stats: on September 20, 2026 - 3 PM Pacific
+ * 52.11K Requests served by Cloud Flare
+ * 14.59K Served by Origin (Chen.Trading)

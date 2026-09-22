@@ -35,6 +35,9 @@ plugins:
 # Google Analytics
 google_analytics: G-2M9PK3J73F
 
+kramdown:
+  toc_levels: "2,3"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
